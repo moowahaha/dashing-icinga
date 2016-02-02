@@ -17,7 +17,7 @@ Files to check
 
 To understand how this dashboard works have a look at the following files:
 
-* config.ru
+* config.ru.example (copy to config.ru when it's set up)
 * dashboards/sample.erb
 * jobs/icinga.rb
 * widget/simplemon/\*
