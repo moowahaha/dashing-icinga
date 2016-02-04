@@ -33,24 +33,27 @@ $pending: cyan;
   color: $pending;
 }
 
-.icinga-latest-problems {
+.latest-problems {
   padding: 12px !important;
   background: #333 !important;
   vertical-align: top !important;
 }
 
-.icinga-latest-problems h1 {
+.latest-problems h1 {
   font-size: 20px;
   margin-bottom: 5px;
 }
+.latest-problems h2 {
+  font-size: 20px;
+}
 
-.icinga-latest-problems td {
+.latest-problems td {
   font-size: 0.7em;
   white-space: nowrap;
 }
 
-.icinga-latest-problems td.icinga-hostname,
-.icinga-latest-problems td.icinga-servicename {
+.latest-problems td.icinga-hostname,
+.latest-problems td.icinga-servicename {
   overflow: hidden;
   text-overflow: ellipsis;
 }
